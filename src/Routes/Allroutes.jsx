@@ -19,7 +19,7 @@ export const AllRoutes = () => {
         <Route path="order-summary" element={<ProtectedRoutes><OrderPage /></ProtectedRoutes> } />
         <Route path="dashboard" element={<ProtectedRoutes><DashboardPage /></ProtectedRoutes> } />
         <Route path="*" element={<PageNotFound />} />
-
+        
     </Routes>
     </>
   )
