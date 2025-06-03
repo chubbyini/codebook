@@ -1,4 +1,4 @@
-import { useTitle } from "../../hooks/useTitle";
+import { useTitle } from "../../Hooks/useTitle";
 import { Hero } from "./components/Hero";
 import { FeaturedProducts } from "./components/FeaturedProducts";
 import { Testimonials } from "./components/Testimonial";
