@@ -1,5 +1,5 @@
 import { createContext, useContext, useReducer } from "react";
-import { cartReducer } from "../Reducer";
+import { CartReducer } from "../Reducer";
 
 const cartInitialState = {
     cartList: [],
@@ -9,7 +9,7 @@ const cartInitialState = {
 const CartContext = createContext(cartInitialState);
 
 export const CartProvider = ({children}) => {
-    const [state, dispatch] = useReducer(cartReducer, cartInitialState);
+    const [state, dispatch] = useReducer(CartReducer, cartInitialState);
 
     function addToCart(product){
         const updatedList = state.cartList.concat(product);
