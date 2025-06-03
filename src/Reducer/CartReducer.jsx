@@ -1,4 +1,4 @@
-export const cartReducer = (state, action) => {
+export const CartReducer = (state, action) => {
     const { type, payload } = action;
 
     switch(type){
