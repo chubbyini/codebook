@@ -61,7 +61,7 @@ try {
                 </button>
                 <div className="py-6 px-6 lg:px-8">
                     <h3 className="mb-4 text-xl font-medium text-gray-900 dark:text-white">
-                    <i className="bi bi-credit-card mr-2"></i>CARD PAYMENT
+                    <i className="bi bi-credit-card mr-2"></i>CARD-PAYMENT
                     </h3>
                     <form onSubmit={handleOrderSubmit} className="space-y-6" >
                         <div>
